@@ -97,3 +97,17 @@ head {
   clear: both;
 }
 
+
+.output1 {
+    background-color: yellow;
+}
+.output2 {
+    background-color: yellow;
+}
+.output3 {
+    background-color: yellow;
+}
+
+.output {
+    background-color: yellow;
+}
