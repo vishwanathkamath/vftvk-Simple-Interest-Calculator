@@ -98,16 +98,16 @@ head {
 }
 
 
-.output1 {
+.amt {
+    color: yellow;
+}
+.int {
     background-color: yellow;
 }
-.output2 {
-    background-color: yellow;
-}
-.output3 {
+.yrs {
     background-color: yellow;
 }
 
-.output {
+.ret {
     background-color: yellow;
 }
