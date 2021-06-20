@@ -3,7 +3,8 @@ function calculate () {
     var p2 = document.getElementById("numberofYears").value;
     var p3 = document.getElementById("interestValue").value;
     if(p1<=0||p2<=0||p3<=0){
-        document.getElementById("output").innerHTML = "Enter the values correctly!!";
+        reset();
+        document.getElementById("output").innerHTML = "Enter positive values!!";
     } else{
         document.getElementById("output1").innerHTML = "If you deposit " + p1 +",";
         document.getElementById("output2").innerHTML = "at an interest rate of " + p3 +"%.";
