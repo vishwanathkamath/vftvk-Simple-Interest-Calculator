@@ -21,7 +21,7 @@ function calculate () {
 function reset () {
     document.getElementById("savingAmount").value='';
     document.getElementById("numberofYears").value='';
-    document.getElementById("interestValue").value='';
+   
     document.getElementById("output1").innerHTML = "";
     document.getElementById("output2").innerHTML = "";
     document.getElementById("output3").innerHTML = "";
