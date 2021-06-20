@@ -97,17 +97,16 @@ head {
   clear: both;
 }
 
-
-.amt {
-    color: yellow;
-}
-.int {
+#amt {
     background-color: yellow;
 }
-.yrs {
+#int {
+    background-color: yellow;
+}
+#yrs {
     background-color: yellow;
 }
 
-.ret {
+#ret {
     background-color: yellow;
 }
