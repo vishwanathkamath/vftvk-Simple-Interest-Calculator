@@ -3,8 +3,8 @@ function calculate () {
     var p2 = document.getElementById("interestValue").value;
     var p3 = document.getElementById("numberofYears").value;
     if(p1<=0||p2<=0||p3<=0){
+        alert("Enter positive Values!!");
         reset();
-        document.getElementById("output").innerHTML = "Enter positive values!!";
     } else{
         document.getElementById("output1").innerHTML = "If you deposit ";
         document.getElementById("amt").innerHTML = p1 +",";
