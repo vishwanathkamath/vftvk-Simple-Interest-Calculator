@@ -1,16 +1,56 @@
+<!DOCTYPE html>
+
 <html>
-    <head>
-    <script src="script.js"></script>
+<head>
     <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <h1>Simple Interest Calculator</h1>
+    <title>Simple Interest Calculator</title>
+</head>
 
-        Amount <input type="number"  id="principal">  <br/>
-        Rate <input type="number"  id="rate">  <br/>
-        No. of Years <input type="number"  id="years">  <br/>
-        Interest : <span id="result"></span><br>
+<body id="bd">
+    <script src="script.js"></script>
+    <div class="container">
+    
+    <h1>
+        Simple Interest Calculator
+    </h1>
+    <table>
+    <tr>
+        <td><label for="savingAmount">Amount</label></td>
+        
+        <td><input type="number" id="savingAmount" name="savingAmount"></td>
+        
+     </tr>
+     <tr>
+       <td> <label for="interestValue">Interest Rate:</label></td>
+        
+      <td>  <input oninput = 'trig()' id="interestValue" type="range" min="0" max="100" class="slider" value="5" step="0.5" /></td>
+        
+       <td> <label class="range" for="range" id="ranger">5%</label></td>
+     </tr>
+    <tr>
+       <td> <label for="numberofYears">No. of years:</label></td>
+       <td> <input type="number" name="numberofYears" id="numberofYears" min="1" max="100"></td>
+    </tr>
+<tr>
+        <td><button onclick="calculate()">
+            Compute Interest
+        </button></td>
+</tr>
 
-        <button onclick="compute()">Compute</button>
-    </body>
+    </table>
+        <br><br>
+        <label id="output1"></label>
+        <br>
+        <label id="output2"></label>
+        <br>
+        <label id="output3"></label>
+        <br>
+        <label id="output"></label>
+        <br>
+        <tr>
+         <td><span>&copy;</span><label> Everyone can get Rich</label></td>
+       </tr>
+       <br>
+    </div>
+</body>
 </html>
