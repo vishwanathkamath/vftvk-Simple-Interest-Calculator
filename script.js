@@ -7,7 +7,7 @@ function calculate () {
     } else{
         document.getElementById("output1").innerHTML = "If you deposit " + p1 +",";
         document.getElementById("output2").innerHTML = "at an interest rate of " + p3 +"%.";
-        ret = p1 + p1*p2*(p3/100);
+        ret = p1*p2*(p3/100);
         document.getElementById("output3").innerHTML = "You will recieve an amount of " + ret + ",";
         da = new Date().getFullYear();
         yr = parseInt(p2)+da;
